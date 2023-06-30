@@ -22,7 +22,7 @@ section{
     padding: 10rem 9% 2rem;
 }
 .login {
-    background-image: url('/Asstes/login.jpg');
+    background-image: url('Asstes/login.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
