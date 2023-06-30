@@ -6,7 +6,7 @@ ScrollReveal({
     delay:300
 });
 
-// ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('#logo', { origin: 'top' });
 ScrollReveal().reveal('#button-content', { origin: 'bottom' });
 ScrollReveal().reveal('#text-one', { origin: 'left' });
 ScrollReveal().reveal('#text-two', { origin: 'right' });
