@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Fasthand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/*:root{*/
+/*    --bg-color :#1A1A1B;*/
+/*    --second-bg-color :#333F44;*/
+/*    --text-color: #E2F3F5;*/
+/*    --main-color : #37AA9C;*/
+/*    --text-span-color : #94F3E4;*/
+/*}*/
+section{
+    position: relative;
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.login {
+    background-image: url('/Asstes/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#logo{
+    position: absolute;
+    width: 400px;
+    top: 15%;
+    left: 1%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+#text-content{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: center;
+    color: #EA731E;
+    font-family: 'Alkatra', cursive;
+}
+#text-one, #text-two{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.4;
+}
+#button-content{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(to top left, #6e1215 20%, #1b1c21 93%);
+    border-radius: 4rem;
+    gap: 25rem;
+    box-shadow: 0 0 1rem #1b1c21;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
